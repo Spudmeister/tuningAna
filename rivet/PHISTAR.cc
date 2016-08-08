@@ -12,6 +12,7 @@
 #include "Rivet/Projections/ChargedLeptons.hh"
 #include "Rivet/Projections/NeutralFinalState.hh"
 #include "Rivet/Projections/IdentifiedFinalState.hh"
+#include <iostream>
 
 
 namespace Rivet {
@@ -62,22 +63,30 @@ namespace Rivet {
 
     // Perform the per-event analysis
     void analyze(const Event& event) {
-
+      std::cout << "ANALYZING EVENT" << std::endl;
       const double weight = event.weight();
 
 
       Particles electrons = applyProjection<IdentifiedFinalState>(event, "ELECFS").particlesByPt();
       //Now we make event cuts
+      std::cout << "Checking size of electrons: "<< electrons.size() << std::endl;
       if (electrons.size()<2) vetoEvent;
+      std::cout << "Checking energy of first electron: " <<electrons[0].pT()/GeV << std::endl;
       if (electrons[0].pT()/GeV < 30) vetoEvent;
+      std::cout << "And of the 2nd electron: " <<electrons[1].pT()/GeV<< std::endl;
       if (electrons[1].pT()/GeV < 20) vetoEvent;
+      std::cout << "Checking the multiple of the first two electron's charge"<< electrons[0].charge()*electrons[1].charge() << std::endl;
       if (electrons[0].charge()*electrons[1].charge()>0) vetoEvent;
       double M = (electrons[0].momentum() + electrons[1].momentum()).mass()/GeV;
+      std::cout << "Checking the mass of the two combined: "<<M << std::endl;
       if (M<60 || M >120) vetoEvent;
+      std::cout << "Checking pseudorapidity of 1st electron: "<<electrons[0].momentum().abseta() << std::endl;
       if (electrons[0].momentum().abseta() > 2.1) vetoEvent;
+      std::cout << "Checking pseudorapidity of 2nd electron: "<<electrons[0].momentum().abseta() << std::endl;
       if (electrons[1].momentum().eta() > 2.4) vetoEvent;
-
-      _hist_phistar->fill(ReturnPhistar(electrons[0].momentum().eta(), electrons[0].momentum().phi(), electrons[1].momentum().eta(), electrons[1].momentum().phi()));
+      double phistar = ReturnPhistar(electrons[0].momentum().eta(), electrons[0].momentum().phi(), electrons[1].momentum().eta(), electrons[1].momentum().phi());
+      std::cout << "PHISTAR CALCULATED FOR EVENT IS: " << phistar << std::endl;
+      _hist_phistar->fill(phistar);
     } 
 
 
