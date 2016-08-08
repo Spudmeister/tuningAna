@@ -1,0 +1,13 @@
+prefix=/home/aevans/CMS/phistar/rivet/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+
+Name: yoda
+Description: YODA data analysis library
+URL: https://yoda.hepforge.org
+Version: 1.5.9
+Libs: -L${exec_prefix}/lib -lYODA
+Cflags: -I${prefix}/include
+#-I-I/home/aevans/CMS/phistar/rivet/local/include

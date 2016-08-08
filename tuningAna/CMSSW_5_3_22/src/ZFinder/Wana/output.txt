@@ -1,0 +1,196 @@
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 1
+Daughter has 0 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 1
+Daughter has 0 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 1
+Daughter has 0 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 1
+Daughter has 0 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 23
+Daughter has 2 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 23
+Daughter has 1 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 23
+Daughter has 2 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 23
+Daughter has 1 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID 11
+Daughter 0 has status 1
+Daughter has 0 daughters
+Daughter 1 has ID -12
+Daughter 1 has status 1
+Daughter has 0 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 23
+Daughter has 2 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 23
+Daughter has 1 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 23
+Daughter has 2 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 23
+Daughter has 1 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID 24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID -11
+Daughter 0 has status 1
+Daughter has 0 daughters
+Daughter 1 has ID 12
+Daughter 1 has status 1
+Daughter has 0 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID 11
+Daughter 0 has status 1
+Daughter has 0 daughters
+Daughter 1 has ID -12
+Daughter 1 has status 1
+Daughter has 0 daughters
+NEW EVENT
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 44
+Daughter has 1 daughters
+Found a W with 1 daughters
+Daughter 0 has ID -24
+Daughter 0 has status 62
+Daughter has 2 daughters
+Found a W with 2 daughters
+Daughter 0 has ID 11
+Daughter 0 has status 23
+Daughter has 2 daughters
+Daughter 1 has ID -12
+Daughter 1 has status 23
+Daughter has 1 daughters

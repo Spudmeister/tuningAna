@@ -1,0 +1,14 @@
+prefix=/home/aevans/CMS/phistar/rivet/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+
+Name: rivet
+Description: Rivet MC analysis library
+URL: https://rivet.hepforge.org
+Version: 2.4.3
+#Requires: yoda
+Libs: -L${exec_prefix}/lib -L/home/aevans/CMS/phistar/rivet/local/lib -L/home/aevans/CMS/phistar/rivet/local/lib -L-Wl,-rpath,/home/aevans/CMS/phistar/rivet/local/lib -lm -L/home/aevans/CMS/phistar/rivet/local/lib -lfastjettools -lfastjet -lfastjetplugins -lsiscone_spherical -lsiscone -L/home/aevans/CMS/phistar/rivet/local/lib -lRivet
+Cflags: -I${prefix}/include -I/home/aevans/CMS/phistar/rivet/local/include -I/home/aevans/CMS/phistar/rivet/local/include -I/home/aevans/CMS/phistar/rivet/local/include -I/home/aevans/CMS/phistar/rivet/local/include
+#-I-I/home/aevans/CMS/phistar/rivet/local/include

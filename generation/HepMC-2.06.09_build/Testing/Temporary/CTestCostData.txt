@@ -1,0 +1,12 @@
+testHepMC.sh 1 1.67146
+testStreamIO.sh 1 1.39456
+testHepMCIteration.sh 1 0.304889
+testMass.sh 1 0.381218
+testFlow.sh 1 0.0657659
+testPrintBug.sh 1 0.02543
+testPolarization.sh 1 0.050627
+testSimpleVector 1 0.00887704
+testUnits 1 0.00756383
+testMultipleCopies 1 0.196495
+testWeights 1 0.00897193
+---

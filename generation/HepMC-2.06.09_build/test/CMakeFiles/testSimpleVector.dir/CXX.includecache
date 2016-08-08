@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/SimpleVector.h
+HepMC/enable_if.h
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/HepMC/enable_if.h
+HepMC/is_arithmetic.h
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/HepMC/is_arithmetic.h
+HepMC/SimpleVector.icc
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/HepMC/SimpleVector.icc
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/SimpleVector.icc
+cmath
+-
+algorithm
+-
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/enable_if.h
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/is_arithmetic.h
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/testSimpleVector.cc
+iostream
+-
+HepMC/SimpleVector.h
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/HepMC/SimpleVector.h
+

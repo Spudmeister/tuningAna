@@ -1,0 +1,31 @@
+BEGIN YODA_HISTO1D /PHISTAR/d01-x01-y01
+IsRef=1
+Path=/PHISTAR/d01-x01-y01
+ScaledBy=813.75994960905075
+Title=
+Type=Histo1D
+XLabel=
+YLabel=
+# ID	 ID	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+Total   	Total   	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0
+Underflow	Underflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0
+Overflow	Overflow	0.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00	0
+# xlow	 xhigh	 sumw	 sumw2	 sumwx	 sumwx2	 numEntries
+END YODA_HISTO1D
+
+BEGIN YODA_COUNTER /_EVTCOUNT
+Path=/_EVTCOUNT
+Title=
+Type=Counter
+# sumW	 sumW2	 numEntries
+1.000000e+04	1.000000e+04	10000
+END YODA_COUNTER
+
+BEGIN YODA_SCATTER1D /_XSEC
+Path=/_XSEC
+Title=
+Type=Scatter1D
+# xval	 xerr-	 xerr+
+8.137599e+06	4.296633e+04	4.296633e+04
+END YODA_SCATTER1D
+

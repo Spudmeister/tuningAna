@@ -1,0 +1,2 @@
+ALL_PACKAGES += ZFinder/GenPhistar
+subdirs_src_ZFinder_GenPhistar := src_ZFinder_GenPhistar_scripts src_ZFinder_GenPhistar_python src_ZFinder_GenPhistar_src src_ZFinder_GenPhistar_test

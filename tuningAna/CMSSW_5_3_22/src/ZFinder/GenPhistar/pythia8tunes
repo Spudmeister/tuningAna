@@ -1,0 +1,70 @@
+ // Full e+e- tune of flavours and FSR to LEP1 data within the
+ // Tune 4C, October 2010.
+  else if (ppTune == 5) {
+    word("PDF:pSet",                            "8"   );
+    parm("SigmaProcess:alphaSvalue",            0.135 );
+    flag("SigmaTotal:zeroAXB",                  true  );
+    flag("SigmaDiffractive:dampen",             true  );
+    parm("SigmaDiffractive:maxXB",              65.0  );
+    parm("SigmaDiffractive:maxAX",              65.0  );
+    parm("SigmaDiffractive:maxXX",              65.0  );
+    parm("Diffraction:largeMassSuppress",       2.0   );
+    flag("TimeShower:dampenBeamRecoil",         true  );
+    flag("TimeShower:phiPolAsym",               true  );
+    parm("SpaceShower:alphaSvalue",             0.137 );
+    mode("SpaceShower:alphaSorder",             1     );
+    flag("SpaceShower:alphaSuseCMW",            false );
+    flag("SpaceShower:samePTasMPI",             false );
+    parm("SpaceShower:pT0Ref",                  2.0   );
+    parm("SpaceShower:ecmRef",                  1800.0);
+    parm("SpaceShower:ecmPow",                  0.0   );
+    parm("SpaceShower:pTmaxFudge",              1.0   );
+    parm("SpaceShower:pTdampFudge",             1.0   );
+    flag("SpaceShower:rapidityOrder",           true  );
+    flag("SpaceShower:phiPolAsym",              true  );
+    flag("SpaceShower:phiIntAsym",              true  );
+    parm("MultipartonInteractions:alphaSvalue", 0.135 );
+    parm("MultipartonInteractions:pT0Ref",      2.085 );
+    parm("MultipartonInteractions:ecmRef",      1800. );
+    parm("MultipartonInteractions:ecmPow",      0.19  );
+    mode("MultipartonInteractions:bProfile",    3     );
+    parm("MultipartonInteractions:expPow",      2.0   );
+    parm("MultipartonInteractions:a1",          0.15  );
+    parm("BeamRemnants:primordialKTsoft",       0.5   );
+    parm("BeamRemnants:primordialKThard",       2.0   );
+    parm("BeamRemnants:halfScaleForKT",         1.0   );
+    parm("BeamRemnants:halfMassForKT",          1.0   );
+    mode("ColourReconnection:mode",             0     );
+    parm("ColourReconnection:range",            1.5   );
+  }
+
+  // Rivet + Professor framework, by Hendrik Hoeth (June 2009).
+  else if (eeTune == 3) {
+    parm("StringFlav:probStoUD",        0.19  );
+    parm("StringFlav:probQQtoQ",        0.09  );
+    parm("StringFlav:probSQtoQQ",       1.00  );
+    parm("StringFlav:probQQ1toQQ0",     0.027 );
+    parm("StringFlav:mesonUDvector",    0.62  );
+    parm("StringFlav:mesonSvector",     0.725 );
+    parm("StringFlav:mesonCvector",     1.06  );
+    parm("StringFlav:mesonBvector",     3.0   );
+    parm("StringFlav:etaSup",           0.63  );
+    parm("StringFlav:etaPrimeSup",      0.12  );
+    parm("StringFlav:popcornSpair",     0.5   );   // kept fixed
+    parm("StringFlav:popcornSmeson",    0.5   );   // kept fixed
+    flag("StringFlav:suppressLeadingB", false );   // kept fixed
+    parm("StringZ:aLund",               0.3   );   // kept fixed
+    parm("StringZ:bLund",               0.8   );
+    parm("StringZ:aExtraSquark",        0.00  );   // kept fixed
+    parm("StringZ:aExtraDiquark",       0.50  );   // kept fixed
+    parm("StringZ:rFactC",              1.00  );   // kept fixed
+    parm("StringZ:rFactB",              0.67  );
+    parm("StringPT:sigma",              0.304 );
+    parm("StringPT:enhancedFraction",   0.01  );   // kept fixed
+    parm("StringPT:enhancedWidth",      2.0   );   // kept fixed
+    parm("TimeShower:alphaSvalue",      0.1383);
+    mode("TimeShower:alphaSorder",      1     );   // kept fixed
+    flag("TimeShower:alphaSuseCMW",     false );   // kept fixed
+    parm("TimeShower:pTmin",            0.4   );   // kept fixed (near limit)
+    parm("TimeShower:pTminChgQ",        0.4   );   // kept same as pTmin
+  }

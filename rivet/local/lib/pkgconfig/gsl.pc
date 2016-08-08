@@ -1,0 +1,11 @@
+prefix=/home/aevans/CMS/phistar/rivet/local
+exec_prefix=/home/aevans/CMS/phistar/rivet/local
+libdir=/home/aevans/CMS/phistar/rivet/local/lib
+includedir=/home/aevans/CMS/phistar/rivet/local/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L/home/aevans/CMS/phistar/rivet/local/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/aevans/CMS/phistar/rivet/local/include

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/Units.h
+iostream
+-
+string
+-
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/testUnits.cc
+iostream
+-
+HepMC/Units.h
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/HepMC/Units.h
+

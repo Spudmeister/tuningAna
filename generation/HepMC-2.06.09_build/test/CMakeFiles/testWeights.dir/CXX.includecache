@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/HepMC/WeightContainer.h
+iostream
+-
+vector
+-
+string
+-
+map
+-
+
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/testWeights.cc
+assert.h
+-
+iostream
+-
+string
+-
+vector
+-
+HepMC/WeightContainer.h
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09/test/HepMC/WeightContainer.h
+stdexcept
+-
+

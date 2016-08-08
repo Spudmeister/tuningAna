@@ -1,0 +1,4 @@
+pluginZFinderGenPhistar.so GenPhistar CMS%EDM%Framework%Module
+pluginZFinderGenPhistar.so GenPhistar CMS%EDM%Framework%ParameterSet%Description
+pluginZFinderWana.so Wana CMS%EDM%Framework%Module
+pluginZFinderWana.so Wana CMS%EDM%Framework%ParameterSet%Description

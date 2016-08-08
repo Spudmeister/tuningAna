@@ -1,0 +1,15 @@
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/src/CMakeFiles/HepMC.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/src/CMakeFiles/HepMCS.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/fio/CMakeFiles/HepMCfio.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/fio/CMakeFiles/HepMCfioS.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testFlow.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testHepMC.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testHepMCIteration.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testMass.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testMultipleCopies.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testPolarization.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testPrintBug.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testSimpleVector.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testStreamIO.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testUnits.dir
+/home/aevans/CMS/phistar/generation/HepMC-2.06.09_build/test/CMakeFiles/testWeights.dir
