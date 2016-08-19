@@ -26,14 +26,12 @@ namespace Rivet {
   public:
     // Book histograms and initialise projections before the run
     void init() {
-      Cut c_electrons   = (Cuts::pT>9*GeV) & (Cuts::abseta<3.0); 
-      IdentifiedFinalState electrons(c_electrons);
-      electrons.acceptId(PID::ELECTRON);
-      addProjection(electrons, "ELECFS");
-      
+      IdentifiedFinalState electrons;
+      electrons.acceptIdPair(PID::ELECTRON);
+      addProjection(electrons, "Electrons");
 
 
-      _hist_phistar           = bookHisto1D(1, 1, 1);  // photon transverse energy
+      _hist_phistar           = bookHisto1D("Phistar",30, 0.0, 3.0);  // phistar
     }
 
     //Phistar calculator
@@ -67,22 +65,27 @@ namespace Rivet {
       const double weight = event.weight();
 
 
-      Particles electrons = applyProjection<IdentifiedFinalState>(event, "ELECFS").particlesByPt();
+      Particles electrons = applyProjection<IdentifiedFinalState>(event, "Electrons").particlesByPt();
       //Now we make event cuts
       std::cout << "Checking size of electrons: "<< electrons.size() << std::endl;
+      //std::cout << "Checking energy of first electron: " <<electrons[0].pT()/GeV << std::endl;
+      //if (electrons[0].pT()/GeV < 30) vetoEvent;
+      for(int i = 0; i < electrons.size(); i++){ 
+        std::cout << "Pt of electron "<<i<<": " <<electrons[i].pT()/GeV<< std::endl;
+        std::cout << "Charge of electron "<<i<<": "<< electrons[i].charge() << std::endl;
+        std::cout << "Pseudorapidity of electron "<<i<<": "<< electrons[i].momentum().abseta() << std::endl;
+      }
+      //std::cout << "And of the 2nd electron: " <<electrons[1].pT()/GeV<< std::endl;
+      //if (electrons[1].pT()/GeV < 20) vetoEvent;
+      //std::cout << "Checking the multiple of the first two electron's charge"<< electrons[0].charge()*electrons[1].charge() << std::endl;
+      //if (electrons[0].charge()*electrons[1].charge()>0) vetoEvent;
       if (electrons.size()<2) vetoEvent;
-      std::cout << "Checking energy of first electron: " <<electrons[0].pT()/GeV << std::endl;
-      if (electrons[0].pT()/GeV < 30) vetoEvent;
-      std::cout << "And of the 2nd electron: " <<electrons[1].pT()/GeV<< std::endl;
-      if (electrons[1].pT()/GeV < 20) vetoEvent;
-      std::cout << "Checking the multiple of the first two electron's charge"<< electrons[0].charge()*electrons[1].charge() << std::endl;
-      if (electrons[0].charge()*electrons[1].charge()>0) vetoEvent;
       double M = (electrons[0].momentum() + electrons[1].momentum()).mass()/GeV;
       std::cout << "Checking the mass of the two combined: "<<M << std::endl;
       if (M<60 || M >120) vetoEvent;
-      std::cout << "Checking pseudorapidity of 1st electron: "<<electrons[0].momentum().abseta() << std::endl;
+      //std::cout << "Checking pseudorapidity of 1st electron: "<<electrons[0].momentum().abseta() << std::endl;
       if (electrons[0].momentum().abseta() > 2.1) vetoEvent;
-      std::cout << "Checking pseudorapidity of 2nd electron: "<<electrons[0].momentum().abseta() << std::endl;
+      //std::cout << "Checking pseudorapidity of 2nd electron: "<<electrons[0].momentum().abseta() << std::endl;
       if (electrons[1].momentum().eta() > 2.4) vetoEvent;
       double phistar = ReturnPhistar(electrons[0].momentum().eta(), electrons[0].momentum().phi(), electrons[1].momentum().eta(), electrons[1].momentum().phi());
       std::cout << "PHISTAR CALCULATED FOR EVENT IS: " << phistar << std::endl;

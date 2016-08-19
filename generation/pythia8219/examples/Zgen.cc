@@ -24,8 +24,10 @@ int main (int argc, char* argv[]) {                              // Begin main p
   
   Pythia pythia;                           // Declare Pythia object
   
-  pythia.readString("WeakBosonExchange:all = on");  // Switch on process   
+  pythia.readString("WeakSingleBoson:ffbar2ffbar(s:gmZ) = on");  // Switch on process   
   pythia.readString("WeakZ0:gmZmode = 0");  // Full gamma^*/Z^0 structure, with interference   
+  pythia.readString("23:onMode = off");
+  pythia.readString("23:onIfAll = 11 11");
   pythia.readString("Beams:eCM = 8000");   // 8 TeV CM energy
   pythia.init();                           // Initialize; incoming pp beams is default
   
