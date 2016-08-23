@@ -32,7 +32,7 @@ int main (int argc, char* argv[]) {                              // Begin main p
   pythia.init();                           // Initialize; incoming pp beams is default
   
   // Generate event(s)
-  for ( int iEvent = 0; iEvent < 10000; ++iEvent) { 
+  for ( int iEvent = 0; iEvent < 100000; ++iEvent) { 
     pythia.next();                           // Generate an(other) event. Fill event record
     // Generate HepMC event to file
     HepMC::GenEvent* hepmcevt = new HepMC::GenEvent();

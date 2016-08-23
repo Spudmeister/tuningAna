@@ -1,0 +1,1 @@
+./Zgen Zgen.hepmc > Zgen.out
