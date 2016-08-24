@@ -8,7 +8,7 @@
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.219      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 10 May 2016  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 23 Aug 2016 at 07:33:38    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 24 Aug 2016 at 08:34:19    |  | 
  |  |                                                                              |  | 
  |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -1018,51 +1018,3 @@
                                    Charge sum:  2.000           Momentum sum:     -0.000     -0.000     -0.000   8000.000   8000.000
 
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
- PYTHIA Error in StringFragmentation::fragment: stuck in joining  
- PYTHIA Error in Pythia::next: hadronLevel failed; try again  
- PYTHIA Warning in StringFragmentation::fragmentToJunction: bad convergence junction rest frame  
- PYTHIA Error in SpaceShower::pT2nearThreshold: stuck in loop  
-
- Pythia::next(): 1000 events have been generated 
- PYTHIA Warning in SpaceShower::pT2nextQCD: weight above unity  
-
- Pythia::next(): 2000 events have been generated 
-
- Pythia::next(): 3000 events have been generated 
-
- Pythia::next(): 4000 events have been generated 
-
- Pythia::next(): 5000 events have been generated 
-
- Pythia::next(): 6000 events have been generated 
-
- Pythia::next(): 7000 events have been generated 
-
- Pythia::next(): 8000 events have been generated 
- PYTHIA Warning in TauDecays::decay: unknown correlated tau production, assuming from unpolarized photon  
-
- Pythia::next(): 9000 events have been generated 
-
- Pythia::next(): 10000 events have been generated 
-
- Pythia::next(): 11000 events have been generated 
- PYTHIA Warning in Pythia::check: not quite matched particle energy/momentum/mass  
-
- Pythia::next(): 12000 events have been generated 
-
- Pythia::next(): 13000 events have been generated 
-
- Pythia::next(): 14000 events have been generated 
-
- Pythia::next(): 15000 events have been generated 
- PYTHIA Warning in MultipartonInteractions::pTnext: weight above unity  
-
- Pythia::next(): 16000 events have been generated 
-
- Pythia::next(): 17000 events have been generated 
-
- Pythia::next(): 18000 events have been generated 
-
- Pythia::next(): 19000 events have been generated 
-
- Pythia::next(): 20000 events have been generated 
