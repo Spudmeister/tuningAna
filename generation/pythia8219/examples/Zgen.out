@@ -8,7 +8,7 @@
  |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.219      |  | 
  |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change: 10 May 2016  |  | 
  |  |   P       Y      T    H   H   I   A   A                                      |  | 
- |  |   P       Y      T    H   H  III  A   A    Now is 24 Aug 2016 at 08:34:19    |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 26 Aug 2016 at 07:42:51    |  | 
  |  |                                                                              |  | 
  |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
  |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
@@ -61,6 +61,7 @@
  |                                                                                    | 
  *------------------------------------------------------------------------------------* 
 
+ PYTHIA Error in Pythia::readFile: did not find file /local/cms/user/aevans/Zgen2.hepmc
 
  *-------  PYTHIA Process Initialization  --------------------------*
  |                                                                  |
@@ -1018,3 +1019,806 @@
                                    Charge sum:  2.000           Momentum sum:     -0.000     -0.000     -0.000   8000.000   8000.000
 
  --------  End PYTHIA Event Listing  -----------------------------------------------------------------------------------------------
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Event passes cuts
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+ PYTHIA Error in StringFragmentation::fragment: stuck in joining  
+ PYTHIA Error in Pythia::next: hadronLevel failed; try again  
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+ PYTHIA Warning in StringFragmentation::fragmentToJunction: bad convergence junction rest frame  
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Event passes cuts
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties
+Looking at first event
+Checking electron properties

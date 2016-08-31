@@ -69,16 +69,16 @@ namespace Rivet {
       //Now we make event cuts
       std::cout << "Checking size of electrons: "<< electrons.size() << std::endl;
       //std::cout << "Checking energy of first electron: " <<electrons[0].pT()/GeV << std::endl;
-      //if (electrons[0].pT()/GeV < 30) vetoEvent;
+      if (electrons[0].pT()/GeV < 30) vetoEvent;
       for(int i = 0; i < electrons.size(); i++){ 
         std::cout << "Pt of electron "<<i<<": " <<electrons[i].pT()/GeV<< std::endl;
         std::cout << "Charge of electron "<<i<<": "<< electrons[i].charge() << std::endl;
         std::cout << "Pseudorapidity of electron "<<i<<": "<< electrons[i].momentum().abseta() << std::endl;
       }
       //std::cout << "And of the 2nd electron: " <<electrons[1].pT()/GeV<< std::endl;
-      //if (electrons[1].pT()/GeV < 20) vetoEvent;
+      if (electrons[1].pT()/GeV < 20) vetoEvent;
       //std::cout << "Checking the multiple of the first two electron's charge"<< electrons[0].charge()*electrons[1].charge() << std::endl;
-      //if (electrons[0].charge()*electrons[1].charge()>0) vetoEvent;
+      if (electrons[0].charge()*electrons[1].charge()>0) vetoEvent;
       if (electrons.size()<2) vetoEvent;
       double M = (electrons[0].momentum() + electrons[1].momentum()).mass()/GeV;
       std::cout << "Checking the mass of the two combined: "<<M << std::endl;
