@@ -2397,6 +2397,8 @@ def try_cmd(args):
     try:
         subprocess.check_output(args, stderr=subprocess.STDOUT)
         return True
+    except AttributeError:
+        return True
     except:
         return False
 
