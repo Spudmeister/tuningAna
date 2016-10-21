@@ -1,0 +1,11 @@
+Executable = /home/aevans/bin/batch_cmsRun
+Universe = vanilla
+Output = /data/whybee0b/user/aevans/logs/output
+Error = /data/whybee0b/user/aevans/logs/error
+request_memory = 400
+Requirements = (Arch=="X86_64") && (Machine != "zebra01.spa.umn.edu" && Machine != "zebra02.spa.umn.edu" && Machine != "zebra03.spa.umn.edu" && Machine != "zebra04.spa.umn.edu" && Machine != "caffeine.spa.umn.edu") && (Machine != "gc1-ce.spa.umn.edu" && Machine != "gc1-hn.spa.umn.edu" && Machine != "gc1-se.spa.umn.edu" && Machine != "red.spa.umn.edu" && Machine != "hadoop-test.spa.umn.edu")
++CondorGroup="cmsfarm"
+Arguments = slc5_amd64_gcc462 /home/aevans/CMS/phistar/tuningAna/CMSSW_5_3_22 /data/whybee0b/user/aevans/lheWrite /data/whybee0b/user/aevans/lheWrite/cfg/lheWrite_000_cfg.py /data/whybee0b/user/aevans/lheWrite/log/lheWrite_000.log /data/whybee0b/user/aevans/lheWrite/log/lheWrite_000.err  2 /data/whybee0a/user/lesko_2/fermi/Output/LHEStuff/res/step1_100_1_ma6.root 
+Queue
+Arguments = slc5_amd64_gcc462 /home/aevans/CMS/phistar/tuningAna/CMSSW_5_3_22 /data/whybee0b/user/aevans/lheWrite /data/whybee0b/user/aevans/lheWrite/cfg/lheWrite_001_cfg.py /data/whybee0b/user/aevans/lheWrite/log/lheWrite_001.log /data/whybee0b/user/aevans/lheWrite/log/lheWrite_001.err  4 /data/whybee0a/user/lesko_2/fermi/Output/LHEStuff/res/step1_371_1_5dX.root 
+Queue

@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc6_amd64_gcc493/pluginGeneratorInterfaceRivetInterface_plugins.so lib/slc6_amd64_gcc493/GeneratorInterfaceRivetInterface_plugins.edmplugin
+90:edmPluginRefresh lib/slc6_amd64_gcc493

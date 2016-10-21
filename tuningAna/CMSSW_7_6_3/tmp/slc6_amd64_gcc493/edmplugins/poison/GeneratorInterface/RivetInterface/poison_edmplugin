@@ -1,0 +1,8 @@
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so DQMRivetClient CMS%EDM%Framework%Module
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so DQMRivetClient CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so GenParticles2HepMCConverter CMS%EDM%Framework%Module
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so GenParticles2HepMCConverter CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so RivetAnalyzer CMS%EDM%Framework%Module
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so RivetAnalyzer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so RivetHarvesting CMS%EDM%Framework%Module
+plugin-poisoned-GeneratorInterfaceRivetInterface_plugins.so RivetHarvesting CMS%EDM%Framework%ParameterSet%Description

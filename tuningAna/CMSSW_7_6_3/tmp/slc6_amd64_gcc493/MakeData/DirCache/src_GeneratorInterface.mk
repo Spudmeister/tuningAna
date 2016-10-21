@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=GeneratorInterface
+subdirs_src_GeneratorInterface = src_GeneratorInterface_RivetInterface

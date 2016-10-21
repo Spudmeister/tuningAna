@@ -1,0 +1,3 @@
+ALL_COMMONRULES += src_GeneratorInterface_RivetInterface_test
+src_GeneratorInterface_RivetInterface_test_parent := GeneratorInterface/RivetInterface
+src_GeneratorInterface_RivetInterface_test_INIT_FUNC += $$(eval $$(call CommonProductRules,src_GeneratorInterface_RivetInterface_test,src/GeneratorInterface/RivetInterface/test,TEST))
