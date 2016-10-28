@@ -99,7 +99,7 @@ def makeHisto(datFileName):
     
     phi = file2.Get("h_mc")
     phi.SetTitle("Official Phistar TuneZ2*")
-    histo.SetTitle("Phistar RIVET")
+    histo.SetTitle("Phistar Pythia8 Tune4C Rivet")
     histo.Scale(1966.7/(6868))
     truInt = 0
     for ibin in range(1, histo.GetNbinsX()+1):
